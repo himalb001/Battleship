@@ -22,7 +22,7 @@ Unit test are created using Xunit. To validate the Battleship state tracker, run
 
 # Project Notes
 
-###Project files and structure
+### Project files and structure
 
 The project contains 2 files
 
@@ -31,7 +31,7 @@ The project contains 2 files
 
 The board can be thought as a 2D grid and where ships are placed.
 
-###Project Requirements
+### Project Requirements
 
 * **Create a board** - Board constructor allows to create a board with any number of rows and columns.
 * **Add a battleship to the board** - `Board.addShip(Ship, ShipPlacement)` function lets players add battleship to the board.
@@ -39,7 +39,7 @@ The board can be thought as a 2D grid and where ships are placed.
 * **Return whether the player has lost the game yet** `Board.areAllShipsSunk()` returns a boolean indicating whether all ships have sunk or not. This will indicate whether the player has lost the game or not.
 
 
-###Technical notes
+### Technical notes
 
 * For better scalability, a dictionary is used rather than a 2D grid array to represent the board.
 * The code is broken down into multiple smaller unit testable function.
