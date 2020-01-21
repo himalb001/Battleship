@@ -47,7 +47,7 @@ The board can be thought as a 2D grid and where ships are placed.
 * The Code is very loosly coupled to support testability and extensibility.
 
 
-###Todos
+### Todos
 
 Currently, the Ship class holds it's x/y coordinates. To further support loose coupling, ship's coordinates should be moved out of Ship's class. 
 
